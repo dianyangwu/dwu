@@ -2,8 +2,8 @@
 List, create and delete google cloud compute engines (VMs) by using python.
 
 Run on a google cloud shell terminal
-  pip install --upgrade google-cloud-compute
-  python demo.py  
+  $ pip install --upgrade google-cloud-compute
+  $ python demo.py  
   
 Reference:
   https://cloud.google.com/compute/docs/create-linux-vm-instance?hl=en_US
