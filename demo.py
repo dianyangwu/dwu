@@ -38,7 +38,12 @@ while op != 'q' :
         vms = list_all.list_all_instances(OpjectId)
         
     elif op == 'd':
-        n = int(input(f'input the index (1 - {len(vms)}) of vM: '))
+        try :
+            n = int(input(f'input the index (1 - {len(vms)}) of vM: '))
+        except :
+            print('\tInteger value error')  
+            continue
+
         if n < 1 or n > len(vms) :
             continue
 
