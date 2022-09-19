@@ -6,4 +6,7 @@ Run on a google cloud shell terminal
   python demo.py  
   
 Reference:
+  https://cloud.google.com/compute/docs/create-linux-vm-instance?hl=en_US
+  https://cloud.google.com/compute/docs/api/using-libraries
+  
   https://github.com/RGGH/gcp_demos/tree/main/compute
