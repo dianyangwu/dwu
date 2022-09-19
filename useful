@@ -1,0 +1,65 @@
+James Project
+
+https://console.cloud.google.com/marketplace/product/google-cloud-platform/compute-engine?project=eco-serenity-362821&walkthrough_id=compute_short_quickstart&showTutorial=true
+Compute Engine
+
+https://cloud.google.com/compute/docs/machine-types?hl=en_US
+About machine families 
+What's next
+Creating and starting a VM instance
+Creating a VM instance with a custom machine type.
+Quickstart using a Linux VM
+Quickstart using a Windows VM
+Learn more about attaching block storage to your VMs.
+
+https://cloud.google.com/compute/docs/create-linux-vm-instance?hl=en_US
+Create a Linux VM instance in Compute Engine
+
+https://www.youtube.com/watch?v=UYRvx2gtpmU
+
+https://github.com/googleapis/python-compute/tree/main/samples/snippets
+Various ways of creating a new disk (#308)
+…
+
+https://www.youtube.com/watch?v=UYRvx2gtpmU
+Google Cloud Platform | Create VM instances with Python code (and delete) | gcloud
+https://github.com/RGGH/gcp_demos/tree/main/compute
+https://github.com/rggh/gcp_demos/
+
+https://cloud.google.com/ai-platform/training/docs/python-client-library
+
+*
+https://cloud.google.com/compute/docs/api/using-libraries
+
+search "run python in gcloud"
+
+*
+https://cloud.google.com/ai-platform/training/docs/python-client-library
+
+https://cloud.google.com/python/docs/getting-started/getting-started-on-compute-engine
+
+https://developers.googleblog.com/2021/09/run-code-directly-from-google-cloud-documentation.html
+
+*
+https://cloud.google.com/compute/docs/api/libraries#client-libraries-install-python
+pip install --upgrade google-cloud-compute
+remove error:
+ImportError: cannot import name 'compute_v1' from 'google.cloud' (unknown location)
+
+
+*
+https://cloud.google.com/compute/docs/images/os-details
+Operating system details 
+Family
+?
+https://cloud.google.com/compute/docs/instances/create-start-instance
+
+
+https://console.cloud.google.com/compute/images?referrer=search&tab=images&project=eco-serenity-362821
+Images
+https://cloud.google.com/compute/docs/machine-types?hl=en_US
+About machine families 
+https://cloud.google.com/compute/docs/compute-optimized-machines?hl=en_US
+Compute-optimized machine family
+https://cloud.google.com/compute/docs/general-purpose-machines?hl=en_US
+General-purpose machine family
