@@ -15,7 +15,7 @@ while op != 'q' :
     if op == 'l' :
         vms = list_all.list_all_instances(OpjectId)
 
-    op = input("Input (l-List VMs, c-Create a VM,, d-Delect a VM, q-Quit): ").replace(' ','').lower()
+    op = input("Input (l-List VMs, c-Create a VM, d-Delect a VM, q-Quit): ").replace(' ','').lower()
     if len(op) == 0 :
         op = ' '
 
@@ -47,7 +47,7 @@ while op != 'q' :
         if n < 1 or n > len(vms) :
             continue
 
-        name = list(vms.keys())[1]
+        name = list(vms.keys())[n - 1]
         print(f'\tDeleting {name} ...')
         delete.delete_instance(OpjectId, vms[name], name)
         print('\tComplete\n')
