@@ -15,7 +15,7 @@ while op != 'q' :
     if op == 'l' :
         vms = list_all.list_all_instances(OpjectId)
 
-    op = input("Input (l-List VMs, c-Create a VM, d-Delect a VM, q-Quit): ").replace(' ','').lower()
+    op = input("Input (l-List VMs, c-Create VM, d-Delect VM, q-Quit): ").replace(' ','').lower()
     if len(op) == 0 :
         op = ' '
 
