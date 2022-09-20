@@ -22,7 +22,7 @@ while op != 'q' :
     if op[0] == 'c' :
         name = input('\tInput the new VM name: ').strip()
         if name in vms.keys() :
-            print(f'\t{name} has been used.')
+            print(f'\t{name} is in use.')
             continue
 
         if re.search('^[^a-z]|[^a-z0-9-]|-$', name) :
@@ -32,14 +32,14 @@ while op != 'q' :
             continue
 
         print(f'\tCreating. {name} ...')
-        create_instance.create_instance(create_instance.compute, OpjectId, 'us-west4-b', name,'pybucket')
+        create_instance.create_instance(create_instance.compute, OpjectId, 'us-east4-c', name,'pybucket')
         print('\tComplete\n')
 
         vms = list_all.list_all_instances(OpjectId)
         
     elif op == 'd':
         try :
-            n = int(input(f'input the index (1 - {len(vms)}) of vM: '))
+            n = int(input(f'input the index (1 - {len(vms)}) of VM: '))
         except :
             print('\tInteger value error')  
             continue
